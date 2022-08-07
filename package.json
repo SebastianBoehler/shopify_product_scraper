@@ -1,0 +1,22 @@
+{
+  "name": "shopify_product_scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "watch": "npx tsc -w",
+    "start": "nodemon src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/isomorphic-fetch": "^0.0.36",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@shopify/shopify-api": "^5.0.1",
+    "isomorphic-fetch": "^3.0.0",
+    "nodemon": "^2.0.19"
+  }
+}
